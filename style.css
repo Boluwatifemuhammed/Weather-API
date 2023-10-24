@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+
+.card{
+    width: 550px;
+    height: 700px;
+    background: linear-gradient(to top, rgb(5, 11, 58), rgb(30, 28, 82));
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    padding: 40px 35px;
+    text-align: center;
+    
+}
+p{
+    color: white;
+    font-weight: bolder;
+}
+input{
+    border-radius: 25px;
+    height: 50px;
+    width: 450px;
+    text-align: center;
+
+
+}
+.search-but{
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.911);
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10%;
+}
+
+
+.weather{
+    justify-content: center;
+
+}
+
+/* .weather img {
+    width: 250px;
+    height: 250px;
+    
+} */
+
+h1{
+    font-size: 50px;
+    color:white;
+
+}
+
+h2{
+    color: white;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 40px;
+}
+p{
+    color: white;
+    font-family: arial black;
+    font-size: 30px;
+}
